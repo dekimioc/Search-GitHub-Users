@@ -1,0 +1,8 @@
+export const GET_NAME = 'GET_NAME';
+export const GET_USER_NAME = 'GET_USER_NAME';
+export const GET_USER_DESCRIPTION = 'GET_USER_DESCRIPTION';
+export const GET_USER_AVATAR = 'GET_USER_AVATAR';
+export const GET_USER_REPO_LINK = 'GET_USER_REPO_LINK';
+export const GET_USER_REPOS = 'GET_USER_REPOS';
+export const GET_INPUT_VALUE = 'GET_INPUT_VALUE';
+export const GET_ERROR = 'GET_ERROR';

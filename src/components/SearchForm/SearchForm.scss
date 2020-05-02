@@ -1,0 +1,49 @@
+.input-form {
+  height: 29px;
+  width: 12rem;
+  margin-right: 0.5rem;
+  padding-left: 10px;
+  border-radius: 12px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  &:focus {
+    outline: none;
+  }
+}
+.input-button {
+  background: #2864bf;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.input-button-dis {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  &:hover {
+    cursor: not-allowed;
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,31 @@
+// breakpoints values
+
+$screen-lg-max: 1120px;
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+$screen-md-max: 900px;
+
+@mixin md {
+  @media (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+$screen-sm-max: 768px;
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+$screen-xsm-max: 500px;
+@mixin xsm {
+  @media (max-width: #{$screen-xsm-max}) {
+    @content;
+  }
+}
